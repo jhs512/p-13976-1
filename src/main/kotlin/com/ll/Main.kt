@@ -1,7 +1,13 @@
 package com.ll
 
 fun main() {
-    for (i in 1..5) {
-        println("i = $i")
+    println("== 명언 앱 ==")
+
+    while (true) {
+        print("명령) ")
+        val input = readlnOrNull()
+
+        if (input == "종료")
+            break
     }
 }
